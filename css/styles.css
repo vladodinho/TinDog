@@ -51,6 +51,17 @@ body {
   right: 30%;
 }
 
+@media (max-width: 991px) {
+  #title {
+    text-align: center;
+  }
+
+  .title__image {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
 
 /* FEATURES */
 
