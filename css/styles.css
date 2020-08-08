@@ -1,3 +1,7 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
 body {
   font-family: 'Montserrat', sans-serif;
 }
@@ -49,7 +53,9 @@ body {
 /* FEATURES */
 
 #features {
-  padding: 7% 15%;
+  padding-top: 7%;
+  padding-bottom: 7%;
+  margin: 0 auto;
 }
 
 .feature {
