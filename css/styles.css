@@ -6,10 +6,8 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
-#title {
-  background-color: #ff4c68;
-  color: #fff;
-}
+
+/* Navbar */
 
 .navbar {
   padding: 0 0 4.5rem;
@@ -28,6 +26,14 @@ body {
 .nav-link {
   font-size: 1.2rem;
   font-weight: 300;
+}
+
+
+/* Header */
+
+#title {
+  background-color: #ff4c68;
+  color: #fff;
 }
 
 .container-fluid {
@@ -66,8 +72,7 @@ body {
 /* FEATURES */
 
 #features {
-  padding-top: 7%;
-  padding-bottom: 7%;
+  padding: 50px 100px;
   margin: 0 auto;
   position: relative;
   background-color: #fff;
