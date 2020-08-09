@@ -69,6 +69,12 @@ body {
   }
 }
 
+@media (max-width: 767px) {
+  .title__heading {
+    font-size: 2rem;
+  }
+}
+
 /* FEATURES */
 #features {
   margin: 0 auto;
@@ -111,6 +117,18 @@ body {
   font-weight: 700;
   font-size: 3rem;
   line-height: 1.5;
+}
+
+@media (max-width: 991px) {
+  .testimonials__heading {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .testimonials__heading {
+    font-size: 1.4rem;
+  }
 }
 
 .testimonials__image {
@@ -172,6 +190,12 @@ body {
   font-weight: 900;
   font-size: 3.5rem;
   line-height: 1.5;
+}
+
+@media (max-width: 767px) {
+  .cta__heading {
+    font-size: 2rem;
+  }
 }
 
 .cta__btn {
