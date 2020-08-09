@@ -6,9 +6,16 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
+/* Containers */
+.container-fluid {
+  padding: 7% 15%;
+}
+
+.container-fluid--title {
+  padding: 3% 15% 7%;
+}
 
 /* Navbar */
-
 .navbar {
   padding: 0 0 4.5rem;
 }
@@ -28,16 +35,10 @@ body {
   font-weight: 300;
 }
 
-
 /* Header */
-
 #title {
   background-color: #ff4c68;
   color: #fff;
-}
-
-.container-fluid {
-  padding: 3% 15% 7%;
 }
 
 .title__heading {
@@ -68,11 +69,8 @@ body {
   }
 }
 
-
 /* FEATURES */
-
 #features {
-  padding: 50px 100px;
   margin: 0 auto;
   position: relative;
   background-color: #fff;
@@ -102,9 +100,7 @@ body {
   color: #8f8f8f;
 }
 
-
 /* Testiminial */
-
 #testimonials {
   text-align: center;
   background-color: #ef8172;
@@ -123,13 +119,7 @@ body {
   margin: 20px;
 }
 
-.carousel-item {
-  padding: 7% 15%;
-}
-
-
 /* Press */
-
 #press {
   background-color: #ef8172;
   text-align: center;
@@ -141,12 +131,18 @@ body {
   margin: 20px 20px 50px;
 }
 
-
 /* Pricing */
-
 #pricing {
   padding: 100px;
   text-align: center;
+}
+
+.pricing__heading {
+  font-weight: 700;
+}
+
+.pricing__subheading {
+  color: #8f8f8f;
 }
 
 .pricing__column {
@@ -161,13 +157,14 @@ body {
   font-weight: 700;
 }
 
+.card__option {
+  color: #8f8f8f;
+}
 
 /* Call to action */
-
 #cta {
   background-color: #ff4c68;
   text-align: center;
-  padding: 7% 15% 7%;
   color: #fff;
 }
 
@@ -181,13 +178,10 @@ body {
   margin-bottom: 0;
 }
 
-
 /* Footer */
-
 #footer {
   background-color: #fff;
   text-align: center;
-  padding: 7% 15%;
 }
 
 .footer__socials {
